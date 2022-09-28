@@ -1,9 +1,10 @@
 import './App.css';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div>
-      <h1>Installed React App</h1>
+      <Home></Home>
     </div>
   );
 }
