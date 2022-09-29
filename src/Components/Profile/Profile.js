@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import userImage from '/public/profile.png';
 
 const Profile = (props) => {
@@ -12,6 +12,10 @@ const Profile = (props) => {
         localStorage.setItem('breakTime', JSON.stringify(time));
     }
 
+    useEffect(()=>{
+        const savedBreakTime = JSON.parse(localStorage.getItem('breakTime'));
+        setBreakTime(savedBreakTime);
+    }, [])
     return (
         <div className='sticky top-0'>
             {/* Username and Image */}
