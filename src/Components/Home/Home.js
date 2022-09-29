@@ -1,6 +1,6 @@
 import React from 'react';
 import ExerciseList from '../ExcerciseContainer/ExerciseList';
-import Profile from '../Profile/Profile';
+import Profile from '../Profile/ProfileContainer.js';
 import logo from '/public/fitify.png';
 const Home = () => {
     return (
