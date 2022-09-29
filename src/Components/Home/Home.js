@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import Exercises from '../Excercise/Exercises';
 import Profile from '../Profile/Profile.js';
 import logo from '/public/fitify.png';
@@ -9,7 +10,6 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setExercises(data))
     }, []);
-
 
     const [exerciseTime, setExerciseTime] = useState([]);
     const handleExerciseTime = (time) => {
@@ -35,6 +35,8 @@ const Home = () => {
                         }
                     </div>
                 </div>
+                {/* Blog Section */}
+                <Blog></Blog>
             </div>
             {/* Profile Area */}
             <div className='w-full md:w-[35%] lg:w-[20%] mt-4'>

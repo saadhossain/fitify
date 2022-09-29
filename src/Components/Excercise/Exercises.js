@@ -4,7 +4,7 @@ const Exercises = (props) => {
     return (
         <div>
             <div className="card w-full bg-base-100 shadow-xl">
-                <figure><img src={img} alt="Shoes" /></figure>
+                <figure><img src={img} alt="Exercise Thumbnail" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{exerciseTitle}</h2>
                     <p>{details.length > 150 ? details.slice(0, 150) : details}</p>
