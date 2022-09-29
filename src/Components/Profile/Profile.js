@@ -45,7 +45,7 @@ const Profile = (props) => {
                 <div className='bg-[#F2F4FA] p-2 my-4 rounded'>
                     <div className='flex items-center justify-between'>
                         <h3 className='text-xl text-black'>Exercise Time</h3>
-                        <p>{totalTime} Seconds</p>
+                        <p>{totalTime} Minutes</p>
                     </div>
                 </div>
                 <div className='bg-[#F2F4FA] p-2 my-4 rounded'>
