@@ -1,5 +1,5 @@
 import React from 'react';
-import Exercise from '../ExcerciseList/Exercise';
+import ExerciseList from '../ExcerciseContainer/ExerciseList';
 import Profile from '../Profile/Profile';
 import logo from '/public/fitify.png';
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
                     <h2 className='text-5xl'>Fitify</h2>
                 </div>
                 <h2 className='text-2xl'>Select Today's Exercise</h2>
-                <Exercise></Exercise>
+                <ExerciseList></ExerciseList>
             </div>
             {/* Profile Area */}
             <div className='w-[20%] mt-4'>

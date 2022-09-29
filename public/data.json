@@ -1,0 +1,50 @@
+[
+  {
+    "id": "633526b7fc5c54fb1981e336",
+    "img": "https://onesolutionbd.xyz/fitify/weight-lifting.jpg",
+    "exerciseTitle": "Weight Lifting",
+    "details": "You want to start with a weight that you can lift 10 to 15 times with proper form. Begin with 1 or 2 sets of 10 to 15 repetitions, and slowly progress to 3 sets or more. Gradually increase the weight. When you can easily do the recommended number of sets and reps, increase the weight by 5 to 10 percent.",
+    "age": "20-45",
+    "time": "3 min"
+  },
+  {
+    "id": "633526b7407e4e91f03c9aa1",
+    "img": "https://onesolutionbd.xyz/fitify/cycling.jpg",
+    "exerciseTitle": "Cycling",
+    "details": "The pedaling action can help strengthen your calves, hamstrings, and quadriceps. Additionally, it can work the muscles in your core, back, and glutes. If you use a bicycle with handles, you will also be able to work your upper body muscles, including your biceps, triceps, and shoulders",
+    "age": "16-60",
+    "time": "20 min"
+  },
+  {
+    "id": "633526b75500fbafad7413c0",
+    "img": "https://onesolutionbd.xyz/fitify/back-muscles.jpg",
+    "exerciseTitle": "Back Muscle",
+    "details": "If you’ve ever had back pain, you know just how frustrating it can be — and you’re not alone. It’s estimated that 60–80% of adults in Western countries deal with lower back pain. And because almost every movement your body makes engages your back in some way, this kind of pain can really put a damper on your activities. Strengthening your back muscles is one way to help manage or even prevent nonspecific back pain and improve range of motion.",
+    "age": "16-60",
+    "time": "15 min"
+  },
+  {
+    "id": "633526b72101e526a9f82995",
+    "img": "https://onesolutionbd.xyz/fitify/push-ups.jpg",
+    "exerciseTitle": "Push Ups",
+    "details": "There is no limit to how many push-ups one can do in a day. Many people do more than 300 push-ups a day. But for an average person, even 50 to 100 push-ups should be enough to maintain a good upper body, provided it is done properly. If you want to gain benefit from this form of exercise then do it in the right way.",
+    "age": "18-60",
+    "time": "10 min"
+  },
+  {
+    "id": "633526b7b10ae646e1811266",
+    "img": "https://onesolutionbd.xyz/fitify/treadmill.jpg",
+    "exerciseTitle": "Treadmill",
+    "details": "You should be running on the treadmill the same way you would run outdoors. Try to run with your natural gait, and avoid taking short, choppy strides. If your form feels off, slow your pace until you feel like you are using proper form. Then gradually increase the pace.",
+    "age": "18-50",
+    "time": "15 min"
+  },
+  {
+    "id": "633526b7fb645b6dd63ccc80",
+    "img": "https://onesolutionbd.xyz/fitify/dumbbell.jpg",
+    "exerciseTitle": "Dumbbell",
+    "details": "Dumbbells are relatively inexpensive, highly portable and perfect for the home. This is great if you’ve suddenly found yourself unable to hit the gym. By picking up a few dumbbells online, you can ensure you have all the tools for the best home workout or gym session. So get the ball rolling (or bicep curling) with the best dumbbell workouts and exercises.",
+    "age": "18-50",
+    "time": "20 min"
+  }
+]
