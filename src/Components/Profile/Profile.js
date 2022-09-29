@@ -1,21 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import userImage from '/public/profile.png';
-
+import Swal from 'sweetalert2';
 const Profile = (props) => {
     const time = props.data;
     const totalTime = time.reduce((prev, current) => prev + current, 0);
-
     const [breakTime, setBreakTime] = useState(0);
-
+    //Function to add break time
     const handleBreakTime = (time) => {
         setBreakTime(time);
         localStorage.setItem('breakTime', JSON.stringify(time));
     }
-
+    //UseEffect to load data to UI from local storage
     useEffect(()=>{
         const savedBreakTime = JSON.parse(localStorage.getItem('breakTime'));
         setBreakTime(savedBreakTime);
     }, [])
+    //Function to mark exercise task as complete
+    const handleCompleteExercise = () => {
+        setBreakTime(0);
+        localStorage.setItem('breakTime', JSON.stringify(0));
+        Swal.fire('Good Job! Exercise Completed')
+    }
     return (
         <div className='sticky top-0'>
             {/* Username and Image */}
@@ -67,7 +72,7 @@ const Profile = (props) => {
                     </div>
                 </div>
             </div>
-            <button className='bg-blue-600 py-2 px-4 text-white w-full rounded'>Activity Completed</button>
+            <button onClick={handleCompleteExercise} className='bg-blue-600 py-2 px-4 text-white w-full rounded'>Activity Completed</button>
         </div>
     );
 };
