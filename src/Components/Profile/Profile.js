@@ -8,9 +8,10 @@ const Profile = (props) => {
     const [breakTime, setBreakTime] = useState(0);
 
     const handleBreakTime = (time) => {
-        console.log('Button Clicked', props);
         setBreakTime(time);
+        localStorage.setItem('breakTime', JSON.stringify(time));
     }
+
     return (
         <div className='sticky top-0'>
             {/* Username and Image */}

@@ -17,9 +17,9 @@ const Home = () => {
         setExerciseTime(newTime);
     }
     return (
-        <div className='w-11/12 mx-auto my-3 flex gap-5'>
+        <div className='w-11/12 mx-auto my-3 flex flex-col md:flex-row gap-5'>
             {/* Exercise Packages list */}
-            <div className='w-[80%]'>
+            <div className='w-full md:w-[65%] lg:w-[80%]'>
                 {/* Logo area */}
                 <div className='flex items-center'>
                     <img src={logo} alt="Fitify Logo" />
@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
                 <h2 className='text-2xl'>Select Today's Exercise</h2>
                 <div>
-                    <div className="grid grid-cols-3 gap-4 my-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-3">
                         {
                             exercises.map(exercise => <Exercises data={exercise} key={exercise.id}
                                 handleExerciseTime={handleExerciseTime}
@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
             </div>
             {/* Profile Area */}
-            <div className='w-[20%] mt-4'>
+            <div className='w-full md:w-[35%] lg:w-[20%] mt-4'>
                 <Profile data={exerciseTime}></Profile>
             </div>
         </div>
